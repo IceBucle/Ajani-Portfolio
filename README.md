@@ -1,4 +1,4 @@
-# Ajani-Portfolio :lion
+# Ajani-Portfolio :lion:
 
 Portfolio of Ajani in MTG with HTML and CSS :clipboard:
 

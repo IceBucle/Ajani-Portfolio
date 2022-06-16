@@ -9,7 +9,7 @@
 /*generic tags*/
 
 h1 {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     font-size: 25px;
 }
 
@@ -78,9 +78,8 @@ ul.friends-container li{
 }
 
 .cards {
-    /*background-color: #f1f1f1;*/
     background-color: #EBE080;
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -92,7 +91,7 @@ ul.friends-container li{
 /* Images */
 
 .profile-pic {
-    width: 375px; 
+    width: 375px;
     border-radius: 14px;
 }
 
@@ -112,5 +111,8 @@ ul.friends-container li{
 @media(max-width:1000px) {
     .side1, .side2 {
         width: 90%;
+    }
+    .page-wrapper {
+        padding-left: 0;
     }
 }

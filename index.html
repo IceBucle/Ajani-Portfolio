@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#EBE080"/>
     <meta name="description" content="History of Ajani in MTG">
     <meta name="author" content="Ajani">
     <link rel="icon" href="img/icon.ico">
@@ -18,7 +20,11 @@
         <section class="side1">
             <div class="wrapper">
                 <h1>Planeswalker Ajani</h1>
-                <img class="profile-pic" src="img/ajani.jpg" alt="ajani" title="ajani">
+                <picture class="profile-pic">
+                    <source type="image/webp" srcset="img/ajani.webp">
+                    <source type="image/jpeg" srcset="img/ajani.jpg">
+                    <img class="profile-pic" src="img/ajani.jpg" width="375" alt="ajani" title="ajani" >
+                </picture>
                 <h2>Ajani Pridemate</h2>
                 <p>Font: 
                     <a target="_blank" href="https://magic.wizards.com/es/story/planeswalkers/ajani-melena-dorada">Biography</a>
@@ -60,13 +66,31 @@
                     <legend><h1>Colors</h1></legend>
                         <ul class="color-container">
                             <li>
-                                <p>Center: &nbsp; <img class="mana-img" src="img/white-mana.jpg" alt="white-mana" title="white"></p>
+                                <p>Center: &nbsp; 
+                                <picture class="mana-img">
+                                    <source type="image/webp" srcset="img/white-mana.webp">
+                                    <source type="image/jpeg" srcset="img/white-mana.jpg">
+                                    <img class="mana-img" src="img/white-mana.jpg" height="20" alt="white-mana" title="white-mana" >
+                                </picture>
+                            </p>
                             </li>
                             <li>
-                                <p>Lost: &nbsp; <img class="mana-img" src="img/red-mana.jpg" alt="red-mana" title="red"></p>
+                                <p>Lost: &nbsp; 
+                                    <picture class="mana-img">
+                                        <source type="image/webp" srcset="img/red-mana.webp">
+                                        <source type="image/jpeg" srcset="img/red-mana.jpg">
+                                        <img class="mana-img" src="img/red-mana.jpg" height="20" alt="red-mana" title="red-mana" >
+                                    </picture>
+                                </p>
                             </li>
                             <li>
-                                <p>Currently: &nbsp; <img class="mana-img" src="img/selesnya-mana.png" alt="selesnya-mana" title="green&white"></p>
+                                <p>Currently: &nbsp; 
+                                    <picture class="mana-img">
+                                        <source type="image/webp" srcset="img/selesnya-mana.webp">
+                                        <source type="image/jpeg" srcset="img/selesnya-mana.png">
+                                        <img class="mana-img" src="img/selesnya-mana.png" height="20" alt="selesnya-mana" title="selesnya-mana" >
+                                    </picture>
+                                </p>
                             </li>
                         </ul>
                 </fieldset>
@@ -81,19 +105,16 @@
                 <h1>Planes Visited</h1>
                 <ul class="blog-container">
                     <li class="cards">
-                        <h2>Alara</h2>
+                        <a target="_blank" href="https://mtg.fandom.com/wiki/Alara"><h2>Alara</h2></a>
                         <p>Alara's five shards are one again, igniting new magics and mayhem.</p>
-                        <a target="_blank" href="https://lenguajecss.com/css/">Read more</a>
                     </li>
                     <li class="cards">
-                        <h2>Dominaria</h2>
-                        <p>Home to the volcanic continent of Shiv, the time-shattered isle of Tolaria, and the cold mountains of Keld.</p>
-                        <a target="_blank" href="https://markdown.es/">Read more</a>
+                        <a target="_blank" href="https://mtg.fandom.com/wiki/Dominaria_(plane)"><h2>Dominaria</h2></a>
+                        <p>Home to the volcanic continent of Shiv, the time-shattered isle of Tolaria, and the cold mountains of Keld, Dominaria is setting to some of the Multiverse’s most brutal conflicts, and most powerful mages.</p> 
                     </li>
                     <li class="cards">
-                        <h2>Theros</h2>
+                        <a target="_blank" href="https://mtg.fandom.com/wiki/Theros_(plane)"><h2>Theros</h2></a>
                         <p>Theros is a land where the gods of myth and legend rule the populace from the twilight realm of Nyx.</p>
-                        <a target="_blank" href="https://pages.github.com/">Read more</a>
                     </li>
                 </ul>
             </div>
@@ -102,23 +123,26 @@
                 <div class="friends-box">
                     <ul class="friends-container">
                         <li>
-                            <h2>Elspeth Tirel</h2>
-                            <a target="_blank" href="https://mtg.fandom.com/wiki/Elspeth_Tirel">View</a>
+                            <a target="_blank" href="https://mtg.fandom.com/wiki/Elspeth_Tirel"><h2>Elspeth Tirel</h2></a>
                         </li>
                         <li>
-                            <h2>Gideon Jura</h2>
-                            <a target="_blank" href="https://mtg.fandom.com/wiki/Gideon_Jura">View</a>
+                            <a target="_blank" href="https://mtg.fandom.com/wiki/Gideon_Jura"><h2>Gideon Jura</h2></a>
                         </li>
                         <li>
-                            <h2>Jace Beleren</h2>
-                            <a target="_blank" href="https://mtg.fandom.com/wiki/Jace_Beleren">View</a>
+                            <a target="_blank" href="https://mtg.fandom.com/wiki/Jace_Beleren"><h2>Jace Beleren</h2></a>
                         </li>
                         <li>
-                            <h2>Nissa Revane</h2>
-                            <a target="_blank" href="https://mtg.fandom.com/wiki/Nissa_Revane">View</a>
+                            <a target="_blank" href="https://mtg.fandom.com/wiki/Nissa_Revane"><h2>Nissa Revane</h2></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://mtg.fandom.com/wiki/Chandra_Nalaar"><h2>Chandra Nalaar</h2></a>
                         </li>
                     </ul>
-                    <img class="friends-img" src="img/ajani-elspeth.jpg" alt="ajani and elspeth" title="best friends">
+                    <picture class="friends-img">
+                        <source type="image/webp" srcset="img/ajani-elspeth.webp">
+                        <source type="image/jpeg" srcset="img/ajani-elspeth.jpg">
+                        <img class="friends-img" src="img/ajani-elspeth.jpg" height="250" alt="ajani and elspeth" title="best friends" >
+                    </picture>
                 </div>
             </div>
         </section>

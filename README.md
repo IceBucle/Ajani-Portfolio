@@ -1,9 +1,7 @@
 # :lion: Ajani-Portfolio
 
-Portfolio of Ajani in MTG with HTML and CSS :clipboard:
+## :clipboard: Portfolio of Ajani in MTG with HTML and CSS
 
-History, planes visited, best firends and colors of Ajani :hourglass_flowing_sand:
+:hourglass_flowing_sand: History, planes visited, best firends and colors of Ajani
 
-Original (amb el path): cwebp -q 50 img/ajani.jpg -o img/ajani.webp
-
-C:\Users\Eloi\Downloads\libwebp-1.2.2-windows-x64\bin\cwebp.exe -q 50 img/ajani-elspeth.jpg -o img/ajani-elspeth.webp
+:heavy_check_mark: I'm trying to do best practices with the help of Lighthouse

@@ -115,4 +115,10 @@ ul.friends-container li{
     .page-wrapper {
         padding-left: 0;
     }
+    .profile-pic {
+        width: 300px;
+    }
+    .friends-img {
+        height: 150px;
+    }
 }
